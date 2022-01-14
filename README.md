@@ -23,4 +23,4 @@ This form contains fields with different data types (name, date, email, phone, p
 
 ## Source Code
 
-Although the main idea is explained in the posts, I left some comments in the source code. Check out the [validation rules](#) and the [validation infrastructure code](#) to feel the idea behind the rule-based validation.
+Although the main idea is explained in the posts, I left some comments in the source code. Check out the [validation rules](https://github.com/bespoyasov/rule-based-data-validation/blob/main/src/application/validation.ts) and the [validation infrastructure code](https://github.com/bespoyasov/rule-based-data-validation/blob/main/src/services/validation.ts) to feel the idea behind the rule-based validation.
