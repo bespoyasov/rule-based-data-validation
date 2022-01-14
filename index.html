@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4b5a75">
+  <title>Mars Colonizer Application 🚀</title>
+</head>
+<body>
+  <div class="app">
+    <h1>Mars Colonizer Application 🚀</h1>
+    <p>Tell us about yourself and get a chance to join the first colonizer mission to Mars!</p>
+    <p>Please, keep in mind that this mission is one direction only. Once on Mars, there is no turning back.</p>
+
+    <form class="form" id="form">
+      <label class="field">
+        <span class="question">Your name</span>
+        <input class="input" type="text" name="name" autofocus>
+      </label>
+
+      <label class="field">
+        <span class="question">Email</span>
+        <input class="input" type="email" name="email">
+      </label>
+
+      <label class="field">
+        <span class="question">Phone number</span>
+        <input class="input" type="tel" name="phone">
+        <small class="description">Please, use the international phone number format starting with “+”.</small>
+      </label>
+
+      <label class="field">
+        <span class="question">Birth date</span>
+        <input class="input" type="date" name="birthDate">
+        <small class="description">For this mission, we need people of age between 20 and 50 years.</small>
+      </label>
+
+      <label class="field">
+        <span class="question">Specialization</span>
+        <select class="select" name="specialty" id="specialty">
+          <option value="engineer" selected>Engineer</option>
+          <option value="scientist">Scientist</option>
+          <option value="psychologist">Psychologist</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+
+      <label class="field" id="custom" hidden>
+        <span class="question">Specify below</span>
+        <input class="input" type="text" name="customSpecialty">
+        <small class="description">Please, use English when specifying your custom specialty.</small>
+      </label>
+
+      <label class="field">
+        <span class="question">Years of experience</span>
+        <input class="input" type="number" name="experience" inputmode="decimal">
+      </label>
+
+      <label class="field">
+        <span class="question">Photo</span>
+        <input type="file" accept="image/*" name="photo">
+        <small class="description">Will be used for the colonizer ID card and press reports.</small>
+      </label>
+
+      <label class="field">
+        <span class="question">Secret code</span>
+        <input class="input" type="password" name="password" autocomplete="new-password">
+        <small class="description">Will be used to authenticate you when you arrive.</small>
+      </label>
+
+      <button>Submit</button>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <a href="https://github.com/bespoyasov/rule-based-data-validation">Project on GitHub</a>
+  </footer>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

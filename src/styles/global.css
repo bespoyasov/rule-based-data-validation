@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+html {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+
+  background-image: linear-gradient(#4b5a75, #59a9b1);
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.2em;
+}
+
+p {
+  margin: 0.4em 0 1em;
+}
+
+a {
+  color: black;
+  text-decoration-color: rgba(0, 0, 0, 0.2);
+}
+
+a:hover {
+  color: white;
+  text-decoration-color: rgba(255, 255, 255, 0.2);
+}
+
+input,
+select,
+button {
+  font-size: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+input[type="file"] {
+  max-width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 620px) {
+  html {
+    font-size: 1rem;
+  }
+
+  body {
+    padding: 15px;
+  }
+}
