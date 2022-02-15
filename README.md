@@ -10,8 +10,8 @@ The rule-based approach helps to separate domain, UI, and infrastructure logic. 
 
 Read more about this approach in my posts:
 
-- 🇬🇧 [Declarative validation in rule-based approach](#)
-- 🇷🇺 [Декларативная валидация данных в rule-based стиле](#)
+- 🇬🇧 [Declarative validation in rule-based approach](https://dev.to/bespoyasov/declarative-data-validation-with-functional-programming-and-rule-based-approach-22a4)
+- 🇷🇺 [Декларативная валидация данных в rule-based стиле](http://bespoyasov.ru/blog/declarative-rule-based-validation/)
 
 ## App Example
 
